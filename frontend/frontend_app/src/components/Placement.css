@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #374e58;
+  }
+  .wrapper {
+    color:  #fff;
+  }
+  .form {
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 10em;
+    right: 0;
+    left: 18em;
+    width: calc(100% - 18em);
+    overflow-x: hidden;
+}
